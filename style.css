@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #151320;
+    height: 100vh;
+
+}
+
+.head-div{
+    height: 50vh;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+   
+}
+
+.card{
+    background: #1c1b29;
+    width: 350px;
+    /* height: 400px; */
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+   
+ 
+}
+
+.card-img{
+    
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    /* position: relative; */
+   
+    clip-path: polygon(0 0,100% 0,100% 85% , 0 100%);
+}
+
+.card1{
+    background-image: url(/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
+}
+
+.card2{
+    background-image: url(/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
+}
+
+.card3{
+    background-image: url(/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
+}
+
+.card h2{
+    padding: 5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.card p {
+    padding: 10px;
+    color: #a0a0a0;
+
+    
+ }
+
+.card a{
+    font-size: large;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card:hover{
+
+    background-color: rgb(62,62,62);
+    color: white;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

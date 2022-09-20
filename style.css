@@ -48,11 +48,19 @@ body{
 }
 
 .card2{
-    background-image: url(/images/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
+    background-image: url(/images/page2img.jpg);
 }
 
 .card3{
-    background-image: url(/images/arthur-martins-KIx_5ReSgIo-unsplash.jp);
+    background-image: url(/images/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
+}
+
+.card4{
+    background-image: url(/images/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
+}
+
+.card5{
+    background-image: url(/images/arthur-martins-KIx_5ReSgIo-unsplash.jpg);
 }
 
 .card h2{

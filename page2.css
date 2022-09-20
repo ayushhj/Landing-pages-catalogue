@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main img{
+    height: 500px;
+    margin-top: 7%;
+    position: relative;
+    z-index: 9;
+}
+
+
+#text{
+    font-size: 30px;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    z-index: 110;
+    left: 20%;
+    font-family:'Monument Extended', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* SCROLL DIV  */
+
+#scroll-div{
+    position: absolute;
+    top: 24%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+}
+
+#scroll-div h1{
+    display: inline-block;
+    font-size: 110px;
+    text-transform: uppercase;
+    font-family: 'Monument Extended', sans-serif;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    animation: scroll 1s infinite;
+    animation-timing-function: linear;
+
+}
+
+#scroll-div::-webkit-scrollbar{
+    display: none;
+}
+
+/* SCROLL DIV 2 */
+
+#scroll-div2{
+    position: absolute;
+    top: 44%;
+    width: 110%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    z-index: 10;
+
+}
+
+#scroll-div2 h1{
+    display: inline-block;
+    font-size: 110px;
+    text-transform: uppercase;
+    font-family: 'Monument Extended', sans-serif;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    animation: scroll 1s infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+#scroll-div2::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/* SCROLL DIV 3 */
+
+#scroll-div3{
+    position: absolute;
+    top: 64%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+}
+
+#scroll-div3 h1{
+    display: inline-block;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Monument Extended', sans-serif;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    animation: scroll 1s infinite;
+    animation-timing-function: linear;
+}
+
+#scroll-div3::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* ANIMATION */
+
+
+@keyframes scroll{
+    0%{
+        transform: translateX(calc(-100% - 32px));
+       
+        
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
